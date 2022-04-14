@@ -14,7 +14,7 @@ void DirectedUnweightedGraph::BFS(int start) {
         std::cerr<<"Empty graph!";
         return;
     }
-    vector<bool> isVisited(numOfVertices,false);     //Can use lines (22~24) instead of 21
+    vector<bool> isVisited(numOfVertices,false);     //Can use lines (18~21) instead of 17 to use array 
  /*bool* isVisited= new bool [numOfVertices];
  *  for(int i=0;i<numOfVertices;i++)
  *      isVisited[i]=false;
